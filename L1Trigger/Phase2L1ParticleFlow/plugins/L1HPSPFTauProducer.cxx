@@ -15,7 +15,7 @@
 #include "DataFormats/L1TParticleFlow/interface/PFTau.h"
 #include "DataFormats/JetReco/interface/CaloJet.h"
 // bitwise emulation headers
-#include "L1Trigger/Phase2L1ParticleFlow/interface/L1HPSPFTauEmulator.h"
+#include "L1Trigger/Phase2L1ParticleFlow/interface/taus/L1HPSPFTauEmulator.h"
 
 
 class L1HPSPFTauProducer : public edm::global::EDProducer<> {
